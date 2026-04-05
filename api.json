@@ -1,0 +1,25 @@
+{
+  "author": {
+    "name": "Marcos Vazquez",
+    "image": "https://randomfox.ca/images/1.jpg",
+    "userSince": "2026",
+    "channel": "fox_gallery"
+  },
+  "images": [
+    { "id": 1, "name": "Red Fox in the Snow", "description": "A red fox exploring a snowy landscape", "dateTaken": "2024-01-15", "thumbnail": "https://randomfox.ca/images/1.jpg", "fullSize": "https://randomfox.ca/images/1.jpg" },
+    { "id": 2, "name": "Fox at Sunset", "description": "A fox sitting in a golden field at dusk", "dateTaken": "2024-02-03", "thumbnail": "https://randomfox.ca/images/2.jpg", "fullSize": "https://randomfox.ca/images/2.jpg" },
+    { "id": 3, "name": "Arctic Fox", "description": "A white arctic fox blending into the snow", "dateTaken": "2024-02-20", "thumbnail": "https://randomfox.ca/images/3.jpg", "fullSize": "https://randomfox.ca/images/3.jpg" },
+    { "id": 4, "name": "Fox Cub Playing", "description": "A young fox cub playing in the grass", "dateTaken": "2024-03-10", "thumbnail": "https://randomfox.ca/images/4.jpg", "fullSize": "https://randomfox.ca/images/4.jpg" },
+    { "id": 5, "name": "Fox in the Forest", "description": "A fox peering through autumn leaves", "dateTaken": "2024-03-22", "thumbnail": "https://randomfox.ca/images/5.jpg", "fullSize": "https://randomfox.ca/images/5.jpg" },
+    { "id": 6, "name": "Sleeping Fox", "description": "A fox curled up asleep in the sun", "dateTaken": "2024-04-05", "thumbnail": "https://randomfox.ca/images/6.jpg", "fullSize": "https://randomfox.ca/images/6.jpg" },
+    { "id": 7, "name": "Fox on a Rock", "description": "A fox standing tall on a rocky hillside", "dateTaken": "2024-04-18", "thumbnail": "https://randomfox.ca/images/7.jpg", "fullSize": "https://randomfox.ca/images/7.jpg" },
+    { "id": 8, "name": "Fox Close Up", "description": "A detailed close up of a foxs face", "dateTaken": "2024-05-01", "thumbnail": "https://randomfox.ca/images/8.jpg", "fullSize": "https://randomfox.ca/images/8.jpg" },
+    { "id": 9, "name": "Fox in Wildflowers", "description": "A fox running through a field of wildflowers", "dateTaken": "2024-05-14", "thumbnail": "https://randomfox.ca/images/9.jpg", "fullSize": "https://randomfox.ca/images/9.jpg" },
+    { "id": 10, "name": "Night Fox", "description": "A fox spotted out at night under the stars", "dateTaken": "2024-06-02", "thumbnail": "https://randomfox.ca/images/10.jpg", "fullSize": "https://randomfox.ca/images/10.jpg" },
+    { "id": 11, "name": "Fox Family", "description": "A mother fox with her cubs outside their den", "dateTaken": "2024-06-15", "thumbnail": "https://randomfox.ca/images/11.jpg", "fullSize": "https://randomfox.ca/images/11.jpg" },
+    { "id": 12, "name": "Fox by the River", "description": "A fox drinking from a clear mountain stream", "dateTaken": "2024-07-04", "thumbnail": "https://randomfox.ca/images/12.jpg", "fullSize": "https://randomfox.ca/images/12.jpg" },
+    { "id": 13, "name": "Fox in Autumn", "description": "A fox surrounded by fallen autumn leaves", "dateTaken": "2024-09-30", "thumbnail": "https://randomfox.ca/images/13.jpg", "fullSize": "https://randomfox.ca/images/13.jpg" },
+    { "id": 14, "name": "Jumping Fox", "description": "A fox mid leap over a log in the woods", "dateTaken": "2024-10-12", "thumbnail": "https://randomfox.ca/images/14.jpg", "fullSize": "https://randomfox.ca/images/14.jpg" },
+    { "id": 15, "name": "Winter Fox", "description": "A fox hunting beneath a fresh layer of snow", "dateTaken": "2024-12-01", "thumbnail": "https://randomfox.ca/images/15.jpg", "fullSize": "https://randomfox.ca/images/15.jpg" }
+  ]
+}
