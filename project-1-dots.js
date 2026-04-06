@@ -23,12 +23,14 @@ export class Project1Dots extends DDDSuper(LitElement) {
       css`
         :host {
           display: flex;
+          flex-direction: row;
           justify-content: center;
           padding: var(--ddd-spacing-3) 0;
         }
 
         .dot-list {
           display: flex;
+          flex-direction: row;
           gap: var(--ddd-spacing-3);
           list-style: none;
           margin: 0;
@@ -80,7 +82,6 @@ export class Project1Dots extends DDDSuper(LitElement) {
   render() {
     if (this.count === 0) return html``;
 
-    
     return html`
       <slide aria-label="Photo slide navigation">
         <ul class="dot-list">
