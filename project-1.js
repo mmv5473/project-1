@@ -248,7 +248,7 @@ export class Project1 extends DDDSuper(I18NMixin(LitElement)) {
         }
 
         .caption-area {
-          padding: var(--ddd-spacing-8) var(--ddd-spacing-8) var(--ddd-spacing-8);
+          padding: var(--ddd-spacing-1) var(--ddd-spacing-4) var(--ddd-spacing-4);
           min-height: 64px;
         }
 
