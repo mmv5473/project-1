@@ -18,7 +18,6 @@ function saveLikes(map) {
   try {
     localStorage.setItem(STORAGE_KEY, JSON.stringify(map));
   } catch {
-    // localStorage blocked (private mode, etc.) — silently skip
   }
 }
 
@@ -132,7 +131,7 @@ export class Project1 extends DDDSuper(I18NMixin(LitElement)) {
         }
 
         .user-since {
-          font-size: 10px;
+          font-size: 24px;
           color: var(--ddd-theme-default-limestoneGray);
           margin: 0;
         }
@@ -297,7 +296,7 @@ export class Project1 extends DDDSuper(I18NMixin(LitElement)) {
     ];
   }
 
-  // ─── Lifecycle ─────────────────────────────────────────────────────────────
+  // What happens when you click a button
 
   connectedCallback() {
     super.connectedCallback();
@@ -320,7 +319,7 @@ export class Project1 extends DDDSuper(I18NMixin(LitElement)) {
     this.removeEventListener("play-list-index-changed", this._handleDotClick);
   }
 
-  // ─── Data fetching ─────────────────────────────────────────────────────────
+  // Fetches Data
 
   async _loadPhotos() {
     this.loading = true;
@@ -346,7 +345,7 @@ export class Project1 extends DDDSuper(I18NMixin(LitElement)) {
     }
   }
 
-  // ─── Navigation ────────────────────────────────────────────────────────────
+  // Navigating the Page
 
   _handleNav(e) {
     const { direction } = e.detail;
@@ -370,7 +369,7 @@ export class Project1 extends DDDSuper(I18NMixin(LitElement)) {
     window.history.replaceState({}, "", newUrl);
   }
 
-  // ─── Likes ─────────────────────────────────────────────────────────────────
+  // Likes
 
   _toggleLike() {
     const current = this.images[this.activeIndex];
@@ -387,7 +386,7 @@ export class Project1 extends DDDSuper(I18NMixin(LitElement)) {
     return !!(photo && this._likes[String(photo.id)]);
   }
 
-  // ─── Share ─────────────────────────────────────────────────────────────────
+  // Shares
 
   async _share() {
     this._updateUrlParam();
@@ -397,7 +396,7 @@ export class Project1 extends DDDSuper(I18NMixin(LitElement)) {
       try {
         await navigator.share({ title: document.title, url });
       } catch {
-        // user cancelled — that's fine
+        // user cancelled 
       }
       return;
     }
@@ -409,7 +408,6 @@ export class Project1 extends DDDSuper(I18NMixin(LitElement)) {
         setTimeout(() => { this._shared = false; }, 2000);
         return;
       } catch {
-        // fall through to execCommand
       }
     }
 
@@ -428,7 +426,7 @@ export class Project1 extends DDDSuper(I18NMixin(LitElement)) {
     }
   }
 
-  // ─── Render helpers ────────────────────────────────────────────────────────
+  // Rendering
 
   _renderAvatar() {
     if (!this.author) {
